@@ -1,12 +1,107 @@
-body {
+.about-bg {
+    background-image: url("../img/notes-phone-overhead.jpeg");
+    margin: 0;
+    overflow: hidden;
+}
+.past-bg {
     background-image: url("../img/closed-notes.jpg");
+    margin: 0;
+    overflow: hidden;
+}
+.present-bg {
+    background-image: url("../img/devices.jpeg");
+    margin: 0;
+    overflow: hidden;
+}
+.future-bg {
+    background-image: url("../img/graphs-coffee.jpg");
+    margin: 0;
+    overflow: hidden;
+}
+.contact-bg {
+    background-image: url("../img/notes.jpg");
+    margin: 0;
+    overflow: hidden;
 }
 ul {
     list-style-type: none;
+    background: rgba(73, 145, 104, .8);
+    padding: 10px;
+    text-align: center;
+    margin: 21px 0;
 }
 li {
     display: inline;
     font-family: sans-serif;
-    font-size: 2.5em;
+    font-weight: bold;
+    font-size: 36px;
     padding: 0 50px;
+    color : rgb(7, 31, 49);
+}
+li a {
+    text-decoration: none;
+    color: rgb(7, 31, 49);
+}
+li a:hover {
+    color: rgb(215, 27, 90);
+}
+.selected {
+    color: rgb(45, 17, 31);
+}
+.center-box {
+    width: 575px;
+    height: 575px;
+    background: rgba(73, 145, 104, .95);
+    margin: 85px auto;
+    text-align: center;
+    font-family: sans-serif;
+    overflow: auto;
+    color: rgb(7, 31, 49);
+}
+.center-box h1 {
+    padding: 25px;
+    margin: 0;
+}
+.center-box p {
+    text-align: left;
+    margin: 25px 50px 0 50px;
+}
+.center-box img {
+    width: 135px;
+    height: 135px;
+    border-radius: 75px;
+    margin: 30px 0 0 0;
+}
+.line {
+    width: 425px;
+    height: 1px;
+    border-bottom: 1px solid rgb(7, 31, 49);
+    margin: 0 auto;
+}
+#intro {
+    margin: 0 50px 0 50px;
+}
+.resume-box {
+    width: 200px;
+    height: 50px;
+    background: rgba(7, 31, 49, 1);
+    margin: 0 auto;
+    top: -50px;
+}
+.resume-box h4 {
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 0;
+}
+.resume-box a {
+    text-decoration: none;
+}
+.resume-box a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+#school {
+    padding: 30px 20px 20px 20px;
+    text-align: center;
+    margin: 0 50px;
 }
