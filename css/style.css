@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 .present-bg {
-    background-image: url("../img/devices.jpeg");
+    background-image: url("../img/notes-phone.jpg");
     margin: 0;
     overflow: hidden;
 }
@@ -34,7 +34,7 @@ li {
     display: inline;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 34px;
     padding: 0 50px;
     color : rgb(7, 31, 49);
 }
@@ -52,15 +52,20 @@ li a:hover {
     width: 575px;
     height: 575px;
     background: rgba(73, 145, 104, .95);
-    margin: 85px auto;
+    margin: 65px auto;
     text-align: center;
     font-family: sans-serif;
     overflow: auto;
     color: rgb(7, 31, 49);
+    border-radius: 15px;
 }
 .center-box h1 {
     padding: 25px;
     margin: 0;
+}
+.center-box h3 {
+    text-align: left;
+    margin: 25px 50px 0 50px;
 }
 .center-box p {
     text-align: left;
@@ -71,6 +76,8 @@ li a:hover {
     height: 135px;
     border-radius: 75px;
     margin: 30px 0 0 0;
+    border: 1px solid rgb(7, 31, 49);
+    /*box-shadow: 1px 1px 1px;*/
 }
 .line {
     width: 425px;
@@ -100,8 +107,82 @@ li a:hover {
     text-decoration: none;
     color: #fff;
 }
+p.current-job {
+    text-align: center;
+}
+p.present-list {
+    margin: 15px 40px 0 40px;
+    display: inline;
+    text-align: left;
+    font-weight: 100;
+}
+td.table-first {
+    column-span: 1;
+}
+td.table-second {
+    column-span: 1;
+}
+td.table-third {
+    column-span: 1;
+}
+td.table-fourth {
+    column-span: 1;
+}
+p.certs {
+    font-weight: 100;
+    margin: 10px 55px 0 55px;
+}
+#current-job-line-2 {
+    margin: 8px 50px 0 50px;
+}
 #school {
     padding: 30px 20px 20px 20px;
     text-align: center;
     margin: 0 50px;
+    line-height: 140%;
+}
+#skills-table {
+    margin: 15px 0 0 12px;
+    text-align: left;
+    width: 540px;
+}
+#languages-table {
+    margin: 15px 0 0 12px;
+    text-align: left;
+    width: 540px;
+}
+#star {
+    display: inline;
+    color: rgb(215, 27, 90);
+    /* Some sort of border */
+    /*text-shadow: -1px 0 rgb(215, 27, 90), 0 1px rgb(215, 27, 90), 1px 0 rgb(215, 27, 90), 0 -1px rgb(215, 27, 90);*/
+ }
+#star-empty {
+    display: inline;
+    color: rgb(7, 31, 49);
+}
+#languages {
+    margin: 15px 50px 0 50px;
+}
+#name-field input {
+    height: 25px;
+    width: 395px;
+    text-align: left;
+    font-size: 12px;
+    padding: 0 0 0 5px;
+}
+#email-field input {
+    height: 25px;
+    width: 395px;
+    text-align: left;
+    font-size: 12px;
+    padding: 0 0 0 5px;
+}
+#message-field textarea {
+    height: 125px;
+    width: 390px;
+    vertical-align: top;
+    resize: none;
+    font-size: 13px;
+    padding: 5px 5px;
 }
